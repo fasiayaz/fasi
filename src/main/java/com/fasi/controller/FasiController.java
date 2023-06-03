@@ -24,5 +24,6 @@ public class FasiController {
 	public ResponseEntity<String> sayHello(@RequestParam Integer n1,@RequestParam Integer n2) {
 		
 		return new ResponseEntity<String>("Sum of "+n1+" and "+n2+" = "+(n1+n2), HttpStatus.OK);
+		//this is an single line comment.
     }
 }
